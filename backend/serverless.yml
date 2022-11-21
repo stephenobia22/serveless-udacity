@@ -28,6 +28,8 @@ provider:
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
     ATTACHMENT_S3_BUCKET: serverless-steve-udagram-todo-images-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
+    AUTH_0_SECRET: KTYCD0Zb37yR0b8Ob75f4vICBXQQzSdffrJ4CoAVLUv8H1DS67t8-mVagDBNjD51
+
 
   logs:
     # Enable API Gateway logs
